@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce LACPS\n"
+"POT-Creation-Date: 2019-10-08 13:02-0400\n"
+"PO-Revision-Date: 2019-10-08 13:12-0400\n"
+"Last-Translator: \n"
+"Language-Team: Robert Ochoa (ochoa.robert1@gmail.com)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: woocommerce-lacps.php:58
+msgid "Configure"
+msgstr "Configurar"
+
+#: woocommerce-lacps.php:72
+msgid "Extra Details"
+msgstr "Detalles adicionales"
+
+#: woocommerce-lacps.php:73
+msgid "Reference Code"
+msgstr "Código de referencia"
+
+#: woocommerce-lacps.php:91
+msgid "LAC Payment Gateway"
+msgstr "LAC Payment Gateway"
+
+#: woocommerce-lacps.php:92
+msgid "Allows payments via payment gateway for LAC Payment Services."
+msgstr ""
+"Permite pagos a través de pasarela de pago para los Servicios de Pago de LAC."
+
+#: woocommerce-lacps.php:174
+msgid "Enable/Disable"
+msgstr "Activar/Desactivar"
+
+#: woocommerce-lacps.php:176
+msgid "Enable LAC Payment Service Gateway"
+msgstr "Habilitar la puerta de enlace del servicio de pago de LAC"
+
+#: woocommerce-lacps.php:180
+msgid "Title"
+msgstr "Título"
+
+#: woocommerce-lacps.php:182
+msgid ""
+"Exclusive LAC Payment Service. We accept VISA / MasterCard / Amex for this "
+"payment."
+msgstr ""
+"Servicio exclusivo de pago de LAC. Aceptamos VISA / MasterCard / Amex para "
+"este pago."
+
+#: woocommerce-lacps.php:183
+msgid "LAC Payment Service"
+msgstr "Servicio de Pago de LAC"
+
+#: woocommerce-lacps.php:187
+msgid "Description"
+msgstr "Descripción"
+
+#: woocommerce-lacps.php:189
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Descripción del método de pago que el cliente verá en su pago."
+
+#: woocommerce-lacps.php:190
+msgid ""
+"Please enter all your credit card info into this secured form, it will be "
+"validated and submitted to our system in order to set the payment."
+msgstr ""
+"Por favor, introduzca toda la información de su tarjeta de crédito en este "
+"formulario seguro, será validado y enviado a nuestro sistema con el fin de "
+"establecer el pago."
+
+#: woocommerce-lacps.php:194
+msgid "Instructions"
+msgstr "Instrucciones"
+
+#: woocommerce-lacps.php:196
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr ""
+"Instrucciones que se añadirán a la página de agradecimiento y correos "
+"electrónicos."
+
+#: woocommerce-lacps.php:201
+msgid "API Key"
+msgstr "API Key"
+
+#: woocommerce-lacps.php:203
+msgid ""
+"Site unique APIKey, it will validate and create the neccesary token for "
+"process the purchase."
+msgstr ""
+"APIKey única del sitio, validará y creará el token neccesary para procesar "
+"la compra."
+
+#: woocommerce-lacps.php:242
+msgid "Name on Card"
+msgstr "Nombre en la tarjeta"
+
+#: woocommerce-lacps.php:243
+msgid "Enter the name printed on credit card"
+msgstr "Introduzca el nombre impreso en la tarjeta de crédito"
+
+#: woocommerce-lacps.php:243 woocommerce-lacps.php:248
+#: woocommerce-lacps.php:253 woocommerce-lacps.php:272
+msgid "This field is mandatory"
+msgstr "Este campo es obligatorio"
+
+#: woocommerce-lacps.php:247
+msgid "Credit Card Number"
+msgstr "Número de Tarjeta de Crédito"
+
+#: woocommerce-lacps.php:252
+msgid "Expiry Month"
+msgstr "Mes de expiración"
+
+#: woocommerce-lacps.php:254
+msgid "Select Month"
+msgstr "Seleccione Mes"
+
+#: woocommerce-lacps.php:255
+msgid "January"
+msgstr "Enero"
+
+#: woocommerce-lacps.php:256
+msgid "February"
+msgstr "Febrero"
+
+#: woocommerce-lacps.php:257
+msgid "March"
+msgstr "Marzo"
+
+#: woocommerce-lacps.php:258
+msgid "April"
+msgstr "Abril"
+
+#: woocommerce-lacps.php:259
+msgid "May"
+msgstr "Mayo"
+
+#: woocommerce-lacps.php:260
+msgid "June"
+msgstr "Junio"
+
+#: woocommerce-lacps.php:261
+msgid "July"
+msgstr "Julio"
+
+#: woocommerce-lacps.php:262
+msgid "August"
+msgstr "Agosto"
+
+#: woocommerce-lacps.php:263
+msgid "September"
+msgstr "Septiembre"
+
+#: woocommerce-lacps.php:264
+msgid "October"
+msgstr "Octubre"
+
+#: woocommerce-lacps.php:265
+msgid "November"
+msgstr "Noviembre"
+
+#: woocommerce-lacps.php:266
+msgid "December"
+msgstr "Diciembre"
+
+#: woocommerce-lacps.php:271
+msgid "Expiry Year"
+msgstr "Año de caducidad"
+
+#: woocommerce-lacps.php:272
+msgid "Year"
+msgstr "Año"
+
+#: woocommerce-lacps.php:279
+msgid ""
+"Es un código numérico corto que aparece en las tarjetas de crédito y en "
+"algunas tarjetas de débito. Este código consiste normalmente de tres o "
+"cuatro dígitos y se puede encontrar en un recuadro en la parte trasera de "
+"las tarjetas Visa &copy; o MasterCard &copy;. Algunas tarjetas como las de "
+"American Express &copy; llevan el código CCV en la parte delantera"
+msgstr ""
+"Es un código corto corto que aparece en las tarjetas de crédito y algunas "
+"tarjetas de débito. Este código consiste normalmente de tres o cuatro "
+"dígitos y se encuentra puede en un recuadro en la parte trasera de las "
+"tarjetas Visa &amp; o MasterCard &a copia;. Algunas tarjetas como las de "
+"American Express &a su copia; llevan el código CCV en la parte frente"
+
+#: woocommerce-lacps.php:296
+msgid "Enter the name on credit card"
+msgstr "Introduzca el nombre en la tarjeta de crédito"
+
+#: woocommerce-lacps.php:300
+msgid "Enter the number of this credit card"
+msgstr "Introduzca el número de esta tarjeta de crédito"
+
+#: woocommerce-lacps.php:304
+msgid "Enter the expiry month of this credit card"
+msgstr "Introduzca el mes de caducidad de esta tarjeta de crédito"
+
+#: woocommerce-lacps.php:308
+msgid "Enter the expiry year of this credit card"
+msgstr "Introduzca el año de vencimiento de esta tarjeta de crédito"
+
+#: woocommerce-lacps.php:312
+msgid "Enter the CCV Code of this credit card"
+msgstr "Introduzca el código CCV de esta tarjeta de crédito"
+
+#: woocommerce-lacps.php:380
+msgid "This payment has been aproved by LAC Payment Services"
+msgstr "Este pago ha sido aprobado por los Servicios de Pago de LAC"
+
+#: woocommerce-lacps.php:392
+msgid "This payment has been rejected by LAC Payment Services"
+msgstr "Este pago ha sido rechazado por los Servicios de Pago de LAC"
+
+#: woocommerce-lacps.php:395
+msgid ""
+"There have been an error in LAC Payment Services, please try again later."
+msgstr ""
+"Ha habido un error en los Servicios de Pago de LAC, inténtelo de nuevo más "
+"tarde."
