@@ -2,65 +2,72 @@
 /* --------------------------------------------------------------
 /* MAIN LESS MIXINS AND FUNCTIONS - LESSHAT
 -------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
 /* --------------------------------------------------------------
 Variables
 -------------------------------------------------------------- */
-.tooltip-table {
-  position: relative;
-  float: right;
-  font-size: 0.7rem;
-  border-bottom: 1px dotted black;
+.tools_page_woocommerce-mspd #wpcontent {
+  padding-left: 0;
+  font-family: 'Open Sans', sans-serif;
 }
-/* Tooltip text */
-.tooltip-table .tooltiptext {
-  visibility: hidden;
-  width: 400px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  border-radius: 6px;
-  position: absolute;
-  z-index: 1;
-  bottom: 25px;
-  right: -5px;
-  font-size: 0.9rem;
-  /* Fade in tooltip */
-  opacity: 0;
-  transition: opacity 0.3s;
+.woocommerce-mspd-main-title {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #202020;
+  padding: 1rem 2rem;
 }
-/* Tooltip arrow */
-.tooltip-table .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  right: 10px;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
+.woocommerce-mspd-main-title h1 {
+  font-weight: 300;
+  color: white;
 }
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip-table:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
+.woocommerce-mspd-main-title .img-logo {
+  max-width: 210px;
 }
-.wc-lapcs-payment-form select {
-  padding: 0.6180469716em;
-  color: #43454b;
-  border: 0;
-  box-sizing: border-box;
-  font-weight: normal;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.125);
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: url(../img/arrow-select-black.png) 98% no-repeat #f2f2f2 !important;
+.woocommerce-mspd-main-content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem;
 }
-.wc-lapcs-payment-form select:-moz-focusring {
-  color: transparent !important;
-  text-shadow: 0 0 0 #FFF !important;
+.woocommerce-mspd-main-content button {
+  background: none transparent;
+  border: 1px solid #202020;
+  padding: 1rem;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.wc-lapcs-payment-form select::-ms-expand {
-  display: none;
+.woocommerce-mspd-main-content button span {
+  font-size: 5rem;
+  margin-left: -20%;
+}
+.woocommerce-mspd-main-content button h2 {
+  margin: 2rem 1.8rem;
+  margin-top: 4rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.woocommerce-mspd-main-content button:hover {
+  background: #202020;
+  color: white;
+}
+.woocommerce-mspd-main-content button:hover h2 {
+  color: white;
+}
+.woocommerce-mspd-main-content .woocommerce-mspd-products-container {
+  padding: 0 2rem;
+}
+.woocommerce-mspd-main-content .woocommerce-mspd-products-container h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: .5rem 0;
 }
